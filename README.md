@@ -16,5 +16,6 @@ This project analyzes data from bike share systems in three major U.S. cities: C
 - `washington.csv`  
 
 ### Credits
-This project is part of the **Udacity Programming for Data Science with Python Nanodegree**.  
-Datasets and project guidance provided by Udacity.
+This project was developed as part of the **Udacity Programming for Data Science with Python Nanodegree** program.  
+Datasets were provided by Udacity, and the project was inspired by coursework and related tutorials from the program.
+
