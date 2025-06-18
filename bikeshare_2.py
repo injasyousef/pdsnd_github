@@ -97,17 +97,25 @@ def station_stats(df):
     print('Most Common Trip:', df['Trip Combination'].mode()[0])
 
 
-
 def trip_duration_stats(df):
-    print('\nTrip Duration...\n')
+    """
+    Displays statistics on the total and average trip duration.
+
+    Args:
+        df (DataFrame): Pandas DataFrame containing bikeshare data.
+    """
+    print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # total travel time
-    print('Total Travel Time (seconds):', df['Trip Duration'].sum())
+    # Calculate total travel time
+    total_duration = df['Trip Duration'].sum()
+    print(f'Total Travel Time: {total_duration:.2f} seconds')
 
-    # average travel time
-    print('Average Travel Time (seconds):', df['Trip Duration'].mean())
+    # Calculate average travel time
+    average_duration = df['Trip Duration'].mean()
+    print(f'Average Travel Time: {average_duration:.2f} seconds')
 
+    print(f"\nThis took {time.time() - start_time:.4f} seconds.")
 
 
 def user_stats(df):
