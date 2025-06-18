@@ -4,7 +4,8 @@
 June 18, 2025
 
 ### Project Title
-Explore US Bikeshare Data
+Bikeshare Data Exploration in U.S. Cities
+
 
 ### Description
 This project analyzes data from bike share systems in three major U.S. cities: Chicago, New York City, and Washington. Users can filter the data by city, month, and day to view statistics on bikeshare usage including travel times, popular stations, and user demographics.
